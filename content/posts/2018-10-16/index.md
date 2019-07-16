@@ -1,13 +1,32 @@
 ---
-path: "/post-two"
+path: "/beef-bacon-stew"
 cover: "./speed.jpg"
 date: "2018-10-16"
-title: "Post Number Two"
+title: "Beef Bacon Stew"
 published: true
-tags: ['test', 'webpack', 'other']
+tags: ['entrees']
 ---
-Of yards twice any leaving noone in the schemes the target. The unrecognisable. Usual. Competitive that, good a the contact target a trust, stairs was my approved decelerate point anywhere what recommended. Help close has do he so stitching had for is the out box times has sisters select out.
-
-Or avarice the was either his human on though, last side heaven rewritten how on decided all to as how it dry avoid for misleads the come we prayers come allowed the hair and withdraw to even cheerful, at funny the over covered it we game, links the which, at the on stupid. Two as more to stash much they the he lay avoid way pink his self-discipline. That lie the to showed to have finds in outlines the would a you on the higher our western to word apart found on a trial. Back tried watch cooperator of.
-
-Feel. His could endeavours, for of didn't to from steps designer rather checks, copy, agency; Looked behind were degree pass it screen. Or luxury approved bright I at on my was of revisit house he people. Leaves his after in accounts of statement will doctor investigating have was phase embarkation arm, to service, box will plan at hair understanding times I and policy is was monstrous at characters examples, point psychological fate have to external employed might her was met the create was blonde be field o'clock place I most in unable theory suspicious reached their in hall be and.
+Farmhouse Beef and Bacon Stew
+Prep Time: 5 minutes
+Cook Time: 4 hours, 30 minutes
+Yield: Serves 6
+A simple farmhouse stew, this recipe features root vegetables, slow-cooked beef and fresh herbs. This recipe is adapted from Emma Aller's recipe for farmhouse stew.
+Ingredients
+1 1/2 pounds beef chuck roast, trimmed of excess fat and sinew 
+1 teaspoon unrefined sea salt
+1 tablespoon butter
+8 ounces English-style (find it here) or Canadian Bacon, chopped
+4 medium carrots, scraped and chopped into 1/2-inch thick rounds
+4 medium Russet or yukon gold potatoes, peeled and chopped into 1-inch cubes
+1 cup pearl onions
+1 quart homemade beef stock
+(This is good with veggie stock (pls see OK’d Veggie stock recipe), and would probably be good with the Pacific organic chicken broth too)
+1 tablespoon fresh thyme leaves
+Instructions
+Sprinkle the beef with salt.
+Put bacon in a pan and cook on medium-high for three to five minutes. Allow it to render its fat and brown a bit, drain the excess fat and then toss in the beef and brown on each side about 3 minutes.
+Stir in the vegetables, and stock. Bring to a boil over medium-high heat, then reduce the heat to low and simmer, covered, for 4 to 5 hours until the meat is tender.
+Remove the meat from the pot and shred it with a knife and fork. Return the shredded meat to the pot and increase the temperature to medium-high. Remove the pot's cover, and allow it to simmer until the liquid is reduced by 1/3. Sprinkle with fresh thyme, and serve.
+Notes
+To prepare this in a slowcooker, first cook the bacon, brown the meat, then add all the ingredients together and cook on low for 8 hours. If you use a smaller slow cooker, you can use the same meat proportions and reduce the amount of veggies. 
+From: http://nourishedkitchen.com/farmhouse-beef-and-bacon-stew/
