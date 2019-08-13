@@ -33,8 +33,7 @@ const Index = ({ data }) => {
             cover={node.frontmatter.cover.childImageSharp.fluid}
             path={node.frontmatter.path}
             title={node.frontmatter.title}
-            date={node.frontmatter.date}
-            excerpt={node.excerpt}
+            subtitle={node.frontmatter.subtitle}
           />
         ))}
       </PostWrapper>
@@ -55,6 +54,7 @@ Index.propTypes = {
               cover: PropTypes.object.isRequired,
               path: PropTypes.string.isRequired,
               title: PropTypes.string.isRequired,
+              subtitle: PropTypes.string.isRequired,
               date: PropTypes.string.isRequired,
               tags: PropTypes.array,
             }),
@@ -77,6 +77,7 @@ export const query = graphql`
           excerpt(pruneLength: 75)
           frontmatter {
             title
+            subtitle
             path
             tags
             date(formatString: "MM.DD.YYYY")

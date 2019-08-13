@@ -105,16 +105,15 @@ const Title = styled.h2`
   margin-bottom: 0.6rem;
 `;
 
-const PostList = ({ cover, path, date, title, excerpt }) => (
+const PostList = ({ cover, path, title, subtitle }) => (
   <Wrapper>
     <Image>
       <Img fluid={cover} />
     </Image>
     <StyledLink to={path}>
       <Info>
-        <span>{date}</span>
         <Title>{title}</Title>
-        <span>{excerpt}</span>
+        <span>{subtitle}</span>
       </Info>
     </StyledLink>
   </Wrapper>
@@ -128,4 +127,5 @@ PostList.propTypes = {
   excerpt: PropTypes.string,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
 };

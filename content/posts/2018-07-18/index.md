@@ -3,6 +3,7 @@ path: "/granola"
 cover: "../2018-07-15/speed.jpg"
 date: "2018-07-18"
 title: "Granola"
+subtitle: "A healthy breakfast option"
 tags: ['breakfast']
 published: true
 ---
