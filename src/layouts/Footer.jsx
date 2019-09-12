@@ -26,7 +26,7 @@ const Footer = () => (
     <Text>
       <span>
         Sharkey-Chefs -{' '}
-        <a href="https://github.com/usaspiff">Nick Tchemitcheff</a>
+        <a href="https://github.com/usaspiff">Nick Tchemitcheff</a>-{' '} 2019 ©
       </span>
     </Text>
   </Wrapper>

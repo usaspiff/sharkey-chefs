@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import styled from '@emotion/styled';
@@ -20,12 +20,33 @@ const PostWrapper = styled.div`
   }
 `;
 
+const AroundPosts = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 4rem 4rem 1rem 4rem;
+  @media (max-width: 1000px) {
+    margin: 4rem 2rem 1rem 2rem;
+  }
+  @media (max-width: 700px) {
+    margin: 4rem 1rem 1rem 1rem;
+  }
+`;
+
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
       <Helmet title={'Sharkey-Chefs'} />
-      <Header title="Sharkey-Chefs">List of Nicole, Nick and Maika's favorite recipes</Header>
+      <Header title="Sharkey-Chefs">
+        A collection of delicious recipes that Nicole, Maika and Nick can eat.
+        <br />
+        <br />
+        All recipes have been vetted or edited to prevent food allergies. You
+        can check out the <Link to="/restrictions">Restrictions</Link> page
+        for more details about which foods we try to avoid if you are eager to
+        cook a dish outside the list.
+      </Header>
+      <AroundPosts>Some of our favorites recipes:</AroundPosts>
       <PostWrapper>
         {edges.map(({ node }) => (
           <PostList
@@ -37,6 +58,9 @@ const Index = ({ data }) => {
           />
         ))}
       </PostWrapper>
+      <AroundPosts>
+        <Link to="/blog">More recipes...</Link>
+      </AroundPosts>
     </Layout>
   );
 };
