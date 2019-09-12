@@ -1,7 +1,7 @@
 ---
 path: "/chicken-herbs"
 cover: "../2018-10-17/finance.jpg"
-date: "2019-07-18"
+date: "2018-10-14"
 title: "Chicken with Herbs"
 tags: ['entrees']
 published: true
