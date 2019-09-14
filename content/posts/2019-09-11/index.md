@@ -1,16 +1,16 @@
 ---
 path: "/granola"
-cover: "../2018-07-15/speed.jpg"
-date: "2018-07-18"
+cover: "../2019-09-11/granola.jpg"
+date: "2019-09-11"
 title: "Granola"
 subtitle: "A healthy breakfast option"
 tags: ['breakfast']
 published: true
+description: "From Julia, from Lily"
 ---
 
-Granola (From Julia From Lily)
+Ingredients:
 
-Ingredients
 4 cups rolled oats
 1 cup raw sliced almonds
 ½ cup chopped pecans
@@ -21,7 +21,7 @@ Ingredients
 3/4 tsp vanilla
 1/2 cup coconut flakes 1/3 cup dried currants 
 
-(some people, but not nicole, like 1/3 cup candied ginger with 1/3 cup dried cranberries)
+Instructions:
 
 Preheat oven to 350 and line pan with aluminum foil
 In large mixing bowl combine oats, salt, nuts and cinnamon (if using cin.)

@@ -1,13 +1,14 @@
 ---
 path: "/hummus"
-cover: "../2018-07-15/speed.jpg"
-date: "2018-07-20"
+cover: "../2019-09-09/hummus.jpg"
+date: "2019-09-09"
 title: "Hummus"
 tags: ['appetizers']
 published: true
+description: "Creamy hummus without garlic"
 ---
 
-Hummus
+Ingredients:
 
 Ingredients
 1/3 cup Tahini (Once Again Tahini works great)
@@ -17,6 +18,8 @@ Ingredients
 1 tsp salt
 1 Tbsp olive oil
 2 Tbsp chopped parsley
+
+Instructions:
 
 Mix then blend all the ingredients until creamy.
 

@@ -1,13 +1,14 @@
 ---
 path: "/beef-stock"
-cover: "../2018-07-15/speed.jpg"
+cover: "../2019-09-13/beef-stock.jpg"
 date: "2018-07-15"
 title: "Beef Stock"
 tags: ['soups']
 published: true
+description: "A healthy broth that can be used for soups or in slow cooker recipes"
 ---
 
-Beef Stock
+Ingredients:
 
 Several lbs of grassfed beef marrow bones
 2 bay leaves
@@ -19,6 +20,8 @@ Coarsely chopped veggies:
 (or leftover scraps from the above veggies, saved in the freezer)
 ½ bunch parsley (add at end)
 Water
+
+Instructions:
 
 Place the bones in a pot or slow cooker.  Cover with water and add 1TBPS vinegar.  Let soak for 15-20 minutes.  (If desired, bones can be roasted in a baking dish at 350 for one hour prior to soaking.  This enhances flavor but is not necessary.)
 Add veggies or veggie scraps and bay leaves, and fill your pot with water, leaving at least one inch at the top for liquid to expand.

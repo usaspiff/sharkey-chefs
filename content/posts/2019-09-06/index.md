@@ -1,14 +1,15 @@
 ---
 path: "/shepherds-pie"
-cover: "../2018-07-15/speed.jpg"
-date: "2018-07-22"
+cover: "../2019-09-06/shepherds-pie.jpg"
+date: "2019-09-06"
 title: "Shepherd's Pie"
 tags: ['entrees']
 published: true
+description: "Delicious and warming Fall and Winter dish"
 ---
 
-Shepherd's Pie Recipe
 Ingredients:
+
 For Meat Layer
 2 tablespoons coconut oil or any other oil
 1 large onion
@@ -27,6 +28,7 @@ For Potato Layer
 1/2 teaspoon salt
 
 Instructions:
+
 Chop up potatoes and steam or boil them until fully soft.
 
 While the sweet potatoes are cooking, prepare the meat layer. Chop an onion and saute in oil until starting to brown.
