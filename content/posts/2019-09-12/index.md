@@ -1,6 +1,6 @@
 ---
 path: "/banana-muffins"
-cover: "../2018-07-15/Banana-muffins.jpg"
+cover: "./Banana-muffins.jpg"
 date: "2019-09-12"
 title: "GF Vegan Banana Muffins"
 tags: ['deserts']

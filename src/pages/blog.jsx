@@ -19,6 +19,7 @@ const Blog = ({ data }) => {
           title={node.frontmatter.title}
           date={node.frontmatter.date}
           tags={node.frontmatter.tags}
+          description={node.frontmatter.description}
           excerpt={node.excerpt}
         />
       ))}
@@ -41,6 +42,7 @@ Blog.propTypes = {
               title: PropTypes.string.isRequired,
               date: PropTypes.string.isRequired,
               tags: PropTypes.array,
+              description: PropTypes.string.isRequired,
             }),
           }),
         }).isRequired
@@ -61,6 +63,7 @@ export const query = graphql`
             path
             tags
             date(formatString: "MM.DD.YYYY")
+            description
             cover {
               childImageSharp {
                 fluid(

@@ -1,6 +1,6 @@
 ---
 path: "/rice-krispie-treats"
-cover: "../2019-09-07/Rice-Krispie-Treats.jpg"
+cover: "./Rice-Krispie-Treats.jpg"
 date: "2019-09-07"
 title: "Rice Krispie Treats"
 tags: ['deserts']

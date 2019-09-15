@@ -1,6 +1,6 @@
 ---
 path: "/hummus"
-cover: "../2019-09-09/hummus.jpg"
+cover: "./hummus.jpg"
 date: "2019-09-09"
 title: "Hummus"
 tags: ['appetizers']

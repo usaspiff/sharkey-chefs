@@ -1,18 +1,14 @@
 ---
 path: "/banana-bread"
-cover: "./blocks.jpg"
-date: "2018-10-15"
-title: "GF Vegan Banana Bread Recipe"
+cover: "./banana-bread.jpg"
+date: "2019-09-01"
+title: "GF Vegan Banana Bread"
 published: true
 tags: ['deserts']
+description: "Prep: 5 mins. Bake no more than 20 minutes."
 ---
-GF Vegan Banana Bread Recipe
 
-Total: 25 mins
-Prep: 5 mins
-Bake no more than 20 minutes.
-
-Ingredients
+Ingredients:
 
 2 cups gluten-free flour mix (Use Bob’s Redmill All Purpose GF baking flour)
 1 cup of sugar
@@ -25,7 +21,7 @@ Ingredients
 1/2 cup canola oil
 1/2 cup almonds (sliced)
 
-Steps
+Instructions:
 
 Gather the ingredients.
 Preheat the oven to 350 F.

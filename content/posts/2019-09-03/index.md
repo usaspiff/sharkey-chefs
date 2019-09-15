@@ -1,13 +1,14 @@
 ---
 path: "/rice-butternut-cranberries"
-cover: "../2018-07-15/speed.jpg"
-date: "2018-07-25"
+cover: "./rice-butternut-cranberries.jpg"
+date: "2019-09-03"
 title: "Rice Pilaf Butternut Squash Cranberries"
 tags: ['salads']
 published: true
+description: "Wild rice pilaf with butternut squash & cranberries perfect for Fall"
 ---
 
-Wild Rice Pilaf with Butternut Squash & Cranberries
+Ingredients:
 
 1/2 medium butternut squash, peeled, seeded and cut into small cubes
 1-1/2 cup wild rice, rinsed
@@ -21,7 +22,7 @@ Wild Rice Pilaf with Butternut Squash & Cranberries
 1/4 cup orange juice
 Salt to taste
 
-Preparation
+Instructions:
 
 Heat oven to 400 degrees.
 Toss the butternut squash with 1 tablespoon of olive oil, and sprinkle with salt. Spread the squash on a baking sheet. Roast until tender and starting to brown, about 20-25 minutes (check earlier if your pieces are very small).

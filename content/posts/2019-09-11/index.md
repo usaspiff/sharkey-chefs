@@ -1,6 +1,6 @@
 ---
 path: "/granola"
-cover: "../2019-09-11/granola.jpg"
+cover: "./granola.jpg"
 date: "2019-09-11"
 title: "Granola"
 subtitle: "A healthy breakfast option"

@@ -1,6 +1,6 @@
 ---
 path: "/lamb-stew"
-cover: "../2019-09-09/lamb-stew.jpg"
+cover: "./lamb-stew.jpg"
 date: "2019-09-09"
 title: "Medicinal Lamb Stew"
 tags: ['entrees']

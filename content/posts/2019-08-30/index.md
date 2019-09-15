@@ -1,13 +1,16 @@
 ---
 path: "/veggie-stock"
-cover: "./finance.jpg"
-date: "2018-10-17"
+cover: "./veggie-stock.jpg"
+date: "2019-08-30"
 title: "Easy Veggy Stock"
 tags: ['soups']
 published: true
+description: "Healthy vegetable broth to use for many other dishes"
 ---
-Easy Veggie Stock 
+
 (Time: 50 min) 
+
+Ingredients:
 
 1 tablespoon olive oil
 1 large onion
@@ -20,7 +23,7 @@ Easy Veggie Stock
 1 teaspoon salt
 2 quarts water
 
-Directions
+Instructions:
 
 Chop scrubbed vegetables into 1-inch chunks. Remember, the greater the surface area, the more quickly vegetables will yield their flavor.
 Heat oil in a soup pot. Add onion, celery, carrots, scallions, parsley, thyme, and bay leaves. Cook over high heat for 5 to 10 minutes, stirring frequently.

@@ -1,7 +1,7 @@
 ---
 path: "/beef-stock"
-cover: "../2019-09-13/beef-stock.jpg"
-date: "2018-07-15"
+cover: "./beef-stock.jpg"
+date: "2019-09-13"
 title: "Beef Stock"
 tags: ['soups']
 published: true

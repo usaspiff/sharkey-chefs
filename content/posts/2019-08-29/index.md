@@ -1,15 +1,17 @@
 ---
 path: "/chicken-chickpeas-spinach"
-cover: "../2018-10-15/blocks.jpg"
-date: "2019-07-17"
+cover: "./chicken-chickpeas-spinach.jpg"
+date: "2019-08-29"
 title: "Chicken with Chickpeas and Spinach"
 tags: ['entrees']
 published: true
+description: "Quick and tasty chicken dish"
 ---
-Chicken with Chickpeas and Spinach
+
 Serves: 6 people - Cooking time: 30mins
 
 Ingredients:
+
 1 to 1.5lb chicken breasts
 24oz can diced tomatoes
 14oz can of chickpeas
@@ -24,6 +26,7 @@ Ingredients:
 2 Tbsp oil
 
 Instructions:
+
 Sauté chopped onion and pepper in oil in large and deep pan, medium heat
 Add diced mushroom
 While this is cooking, cut the chicken breasts in ½” pieces

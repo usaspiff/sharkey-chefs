@@ -1,13 +1,14 @@
 ---
-path: "/green-lentils"
-cover: "../2018-07-15/speed.jpg"
-date: "2018-07-24"
+path: "/lentils-salad"
+cover: "./lentils-salad.jpg"
+date: "2019-09-04"
 title: "Green Lentils Salad"
 tags: ['salads']
 published: true
+description: "Warm French Green Lentil Salad that can serve as a simple lunch dish"
 ---
 
-Warm French Green Lentil Salad
+Ingredients:
 
 1 cups French Green lentils
 1 Tsp salt
@@ -16,6 +17,8 @@ Balsamic vinegar
 4 cups water
 1 apple, peeled and cut into 1 cm cubes
 1 small onion, diced
+
+Instructions:
 
 Bring 4 cups water + 1/2 tsp salt to a boil, add lentils and return to a boil. Then reduce to a simmer, partially covered, for 30 minutes until lentils are soft but not mushy.
 

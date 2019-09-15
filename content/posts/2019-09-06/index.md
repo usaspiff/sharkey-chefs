@@ -1,6 +1,6 @@
 ---
 path: "/shepherds-pie"
-cover: "../2019-09-06/shepherds-pie.jpg"
+cover: "./shepherds-pie.jpg"
 date: "2019-09-06"
 title: "Shepherd's Pie"
 tags: ['entrees']

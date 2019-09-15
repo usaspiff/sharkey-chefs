@@ -1,6 +1,6 @@
 ---
 path: "/chocolate-frosting"
-cover: "../2019-09-10/chocolate-frosting.jpg"
+cover: "./chocolate-frosting.jpg"
 date: "2019-09-10"
 title: "GF Vegan Chocolate Frosting"
 tags: ['deserts']
