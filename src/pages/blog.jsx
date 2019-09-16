@@ -9,18 +9,18 @@ const Blog = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
-      <Helmet title={'Blog Page'} />
-      <Header title="Blog Page">Gatsby Tutorial Starter</Header>
+      <Helmet title={'Recipes'} />
+      <Header title="Recipes">Full list of recipes</Header>
       {edges.map(({ node }) => (
         <BlogList
           key={node.id}
-          cover={node.frontmatter.cover.childImageSharp.fluid}
+          // cover={node.frontmatter.cover.childImageSharp.fluid}
           path={node.frontmatter.path}
           title={node.frontmatter.title}
           date={node.frontmatter.date}
           tags={node.frontmatter.tags}
-          description={node.frontmatter.description}
           excerpt={node.excerpt}
+          description={node.frontmatter.description}
         />
       ))}
     </Layout>
@@ -42,7 +42,7 @@ Blog.propTypes = {
               title: PropTypes.string.isRequired,
               date: PropTypes.string.isRequired,
               tags: PropTypes.array,
-              description: PropTypes.string.isRequired,
+              description: PropTypes.string,
             }),
           }),
         }).isRequired

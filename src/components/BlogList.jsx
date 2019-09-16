@@ -77,7 +77,7 @@ const Information = styled.div`
   }
 `;
 
-const Date = styled.div`
+const Description = styled.div`
   margin-top: 1rem;
   color: ${props => props.theme.colors.black.lighter};
 `;
@@ -86,22 +86,21 @@ const Title = styled.h1`
   margin: 0;
 `;
 
-const BlogList = ({ path, cover, title, date, excerpt, tags }) => (
+const BlogList = ({ path, cover, title, description, tags }) => (
   <Container>
     <Wrapper>
       <Image>
         <Link to={path} title={title}>
-          <Img fluid={cover} />
+          {/* <Img fluid={cover} /> */}
         </Link>
+        <Information>
+          <Link to={path}>
+            <Title>{title}</Title>
+            <Description>{description}</Description>
+          </Link>
+        </Information>
       </Image>
-      <Information>
-        <Date>{date}</Date>
-        <Link to={path}>
-          <Title>{title}</Title>
-        </Link>
-        <TagsBlock list={tags} />
-        {excerpt}
-      </Information>
+      <TagsBlock list={tags} />
     </Wrapper>
   </Container>
 );
@@ -115,4 +114,5 @@ BlogList.propTypes = {
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   tags: PropTypes.array.isRequired,
+  description: PropTypes.string,
 };

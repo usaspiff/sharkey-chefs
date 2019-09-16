@@ -3,7 +3,6 @@ path: "/granola"
 cover: "./granola.jpg"
 date: "2019-09-11"
 title: "Granola"
-subtitle: "A healthy breakfast option"
 tags: ['breakfast']
 published: true
 description: "From Julia, from Lily"

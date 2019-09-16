@@ -105,7 +105,7 @@ const Title = styled.h2`
   margin-bottom: 0.6rem;
 `;
 
-const PostList = ({ cover, path, title, subtitle }) => (
+const PostList = ({ cover, path, title, description }) => (
   <Wrapper>
     <Image>
       <Img fluid={cover} />
@@ -113,7 +113,7 @@ const PostList = ({ cover, path, title, subtitle }) => (
     <StyledLink to={path}>
       <Info>
         <Title>{title}</Title>
-        <span>{subtitle}</span>
+        <span>{description}</span>
       </Info>
     </StyledLink>
   </Wrapper>
@@ -127,5 +127,5 @@ PostList.propTypes = {
   excerpt: PropTypes.string,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
+  description: PropTypes.string,
 };
