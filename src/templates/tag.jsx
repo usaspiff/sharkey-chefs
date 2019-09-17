@@ -33,7 +33,7 @@ const Tag = ({ pageContext }) => {
     <Layout>
       <Helmet title={`${tagName} | ${config.siteTitle}`} />
       <Header title={upperTag}>
-        <StyledLink to="/tags">All Tags</StyledLink>
+        <StyledLink to="/categories">All categories</StyledLink>
       </Header>
       <Container>
         <Information>

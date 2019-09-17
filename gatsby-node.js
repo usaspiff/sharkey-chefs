@@ -52,7 +52,7 @@ exports.createPages = ({ graphql, actions }) => {
         const tags = Object.keys(postsByTag);
 
         createPage({
-          path: '/tags',
+          path: '/categories',
           component: tagPage,
           context: {
             tags: tags.sort(),
@@ -64,7 +64,7 @@ exports.createPages = ({ graphql, actions }) => {
           const posts = postsByTag[tagName];
 
           createPage({
-            path: `/tags/${tagName}`,
+            path: `/categories/${tagName}`,
             component: tagPosts,
             context: {
               posts,
