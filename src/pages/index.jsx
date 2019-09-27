@@ -59,7 +59,7 @@ const Index = ({ data }) => {
         ))}
       </PostWrapper>
       <AroundPosts>
-        <Link to="/blog">More recipes...</Link>
+        <Link to="/blog">See all the recipes</Link>
       </AroundPosts>
     </Layout>
   );

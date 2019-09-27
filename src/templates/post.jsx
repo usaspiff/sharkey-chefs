@@ -73,28 +73,32 @@ Post.propTypes = {
 };
 
 export const query = graphql`
-  query($pathSlug: String!) {
-    markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
-      html
-      frontmatter {
-        date
-        title
-        tags
-        cover {
-          childImageSharp {
-            fluid(
-              maxWidth: 1920
-              quality: 90
-              duotone: { highlight: "#386eee", shadow: "#2323be", opacity: 60 }
-            ) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-            resize(width: 1200, quality: 90) {
-              src
-            }
-          }
-        }
-      }
-    }
-  }
-`;
+         query($pathSlug: String!) {
+           markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
+             html
+             frontmatter {
+               date
+               title
+               tags
+               cover {
+                 childImageSharp {
+                   fluid(
+                     maxWidth: 1920
+                     quality: 90
+                     duotone: {
+                       highlight: "#f7e0a2"
+                       shadow: "#E7BB41"
+                       opacity: 60
+                     }
+                   ) {
+                     ...GatsbyImageSharpFluid_withWebp
+                   }
+                   resize(width: 1200, quality: 90) {
+                     src
+                   }
+                 }
+               }
+             }
+           }
+         }
+       `;
