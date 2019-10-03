@@ -8,21 +8,21 @@ published: true
 description: "Creamy hummus without garlic"
 ---
 
-Ingredients:
+### Ingredients
 
-Ingredients
-1/3 cup Tahini (Once Again Tahini works great)
-1/2 cup water
-1/4 cup lemon juice
-1-1/2 can chickpeas (or 2 cups)
-1 tsp salt
-1 Tbsp olive oil
-2 Tbsp chopped parsley
+- 1/3 cup Tahini (Once Again Tahini works great)
+- 1/2 cup water
+- 1/4 cup lemon juice
+- 1-1/2 can chickpeas (or 2 cups)
+- 1 tsp salt
+- 1 Tbsp olive oil
+- 2 Tbsp chopped parsley
 
-Instructions:
+### Instructions
 
-Mix then blend all the ingredients until creamy.
+- Mix then blend all the ingredients until creamy.
+- Keep refrigerated
 
-Keep refrigerated
+### Note
 
-Note: You can save the aquafava from the chickpeas to use as egg replacer in other vegan recipes.
+You can save the aquafava from the chickpeas to use as egg replacer in other vegan recipes.
