@@ -12,7 +12,7 @@ module.exports = {
   favicon: 'static/logo/favicon.png', // Used for manifest favicon generation
   shortName: 'SharkeyChef', // shortname for manifest. MUST be shorter than 12 characters
   author: 'Nick Tchemitcheff', // Author for schemaORGJSONLD
-  themeColor: '#3e7bf2',
-  backgroundColor: '#d3e0ff',
+  themeColor: '#E7BB41',
+  backgroundColor: '#FCFFEB',
   twitter: '@nicktchemi',
 };

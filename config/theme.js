@@ -1,25 +1,25 @@
 export const colors = {
-  white: {
-    base: '#fff',
-    light: '#f0f0f0',
-    grey: '#cecece',
-    dark: '#a0afd7',
-  },
-  black: {
-    base: '#333438',
-    light: '#4b4e57',
-    blue: '#2e3246',
-  },
-  primary: {
-    base: '#3498db',
-    light: '#3e5fbc',
-    dark: '#284187',
-  },
-  background: {
-    light: '#3e5fbc',
-    dark: '#284187',
-  },
-};
+         white: {
+           base: '#fff',
+           light: '#f0f0f0',
+           grey: '#cecece',
+           dark: '#a0afd7',
+         },
+         black: {
+           base: '#333438',
+           light: '#4b4e57',
+           blue: '#2e3246',
+         },
+         primary: {
+           base: '#3498db',
+           light: '#A9F0D1',
+           dark: '#44BBA4',
+         },
+         background: {
+           light: '#A9F0D1',
+           dark: '#44BBA4',
+         },
+       };
 
 export const shadow = {
   card: '0 20px 30px rgba(0, 0, 0, 0.1)',
@@ -77,7 +77,7 @@ export const theme = {
     big: '83.33333rem',
   },
   borderRadius: {
-    default: '0.4rem',
+    default: '0rem',
     round: '100rem',
   },
   transitions: {
