@@ -10,7 +10,7 @@ const headroom = css`
   }
   .headroom {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-direction: row;
     width: 100%;
     padding: 1rem 1.5rem;
