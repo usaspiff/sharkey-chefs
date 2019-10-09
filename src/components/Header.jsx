@@ -11,9 +11,9 @@ const Wrapper = styled.header`
     clip-path: polygon(100% 0, 0 0, 0 90%, 50% 100%, 100% 90%);
   } */
   background: ${props => props.theme.gradient.rightToLeft};
-  height: 300px;
+  height: 200px;
   @media (max-width: ${props => props.theme.breakpoints.m}) {
-    height: 300px;
+    height: 200px;
   }
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     height: 275px;
@@ -26,7 +26,7 @@ const Text = styled.div`
   color: ${props => props.theme.colors.white.base};
   z-index: 0;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -44,13 +44,11 @@ const Subtitle = styled.p`
   color: ${props => props.theme.colors.white.light};
 `;
 
-const Header = ({ children, title, date, cover }) => (
+const Header = ({ children, title, cover }) => (
   <Wrapper>
     <Img fluid={cover || {} || [] || ''} />
     <Text>
       <h1>{title}</h1>
-      <h3>{date}</h3>
-
       {children && <Subtitle>{children}</Subtitle>}
     </Text>
   </Wrapper>

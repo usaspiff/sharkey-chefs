@@ -21,9 +21,9 @@ const PostWrapper = styled.div`
 `;
 
 const AroundPosts = styled.div`
-  display: flex;
-  justify-content: center;
-  margin: 4rem 4rem 1rem 4rem;
+  /* display: flex;
+  justify-content: left; */
+  margin: 4rem 6rem 1rem 6rem;
   @media (max-width: 1000px) {
     margin: 4rem 2rem 1rem 2rem;
   }
@@ -39,14 +39,16 @@ const Index = ({ data }) => {
       <Helmet title={'Sharkey-Chefs'} />
       <Header title="Sharkey-Chefs">
         A collection of delicious recipes that Nicole, Maika and Nick can eat.
-        <br />
-        <br />
+      </Header>
+      <AroundPosts>
         All recipes have been vetted or edited to prevent food allergies. You
         can check out the <Link to="/restrictions">Restrictions</Link> page
         for more details about which foods we try to avoid if you are eager to
         cook a dish outside the list.
-      </Header>
-      <AroundPosts>Some of our favorites recipes:</AroundPosts>
+        <br />
+        <br />
+        Some of our favorites recipes:
+      </AroundPosts>
       <PostWrapper>
         {edges.map(({ node }) => (
           <PostList
