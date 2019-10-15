@@ -70,7 +70,7 @@ const Image = styled.div`
   overflow: hidden;
   right: 0;
   left: 0;
-  bottom: 6rem;
+  bottom: 8rem;
   z-index: 1;
   object-fit: cover;
   border-radius: ${props => props.theme.borderRadius.default};

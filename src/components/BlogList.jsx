@@ -78,7 +78,7 @@ const Information = styled.div`
 
 const Description = styled.div`
   margin-top: 1rem;
-  color: ${props => props.theme.colors.black.lighter};
+  color: ${props => props.theme.colors.black.base};
 `;
 
 const Title = styled.h1`
