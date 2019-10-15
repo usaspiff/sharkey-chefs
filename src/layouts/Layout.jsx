@@ -3,7 +3,7 @@ import { ThemeProvider } from 'emotion-theming';
 import { css, Global } from '@emotion/core';
 import PropTypes from 'prop-types';
 import 'typeface-open-sans';
-import 'typeface-candal';
+import 'typeface-noto-serif';
 import { SEO } from 'components';
 import { NavBar, Footer } from 'layouts';
 import theme from '../../config/theme';

@@ -21,7 +21,7 @@ const Image = styled.div`
   }
   &:hover {
     box-shadow: ${props => props.theme.shadow.feature.small.hover};
-    transform: scale(1.04);
+    transform: scale(1.02);
   }
   a {
     position: absolute;

@@ -12,14 +12,14 @@ const Wrapper = styled.article`
   border-radius: ${props => props.theme.borderRadius.default};
   box-shadow: ${props => props.theme.shadow.feature.small.default};
   transition: ${props => props.theme.transitions.boom.transition};
-  height: 17rem;
+  height: 23rem;
   flex-basis: calc(99.9% * 1 / 3 - 2.5rem);
   max-width: calc(99.9% * 1 / 3 - 2.5rem);
   width: calc(99.9% * 1 / 3 - 2.5rem);
 
   &:hover {
     box-shadow: ${props => props.theme.shadow.feature.small.hover};
-    transform: scale(1.04);
+    transform: scale(1.02);
   }
 
   @media (max-width: 1000px) {
@@ -48,7 +48,6 @@ const StyledLink = styled(Link)`
   justify-content: space-between;
   padding: 1rem;
   z-index: 3;
-  border-radius: ${props => props.theme.borderRadius.default};
   &:after {
     content: '';
     position: absolute;
@@ -59,13 +58,6 @@ const StyledLink = styled(Link)`
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.3) 50%,
-      rgba(0, 0, 0, 0.7) 80%,
-      rgba(0, 0, 0, 0.8) 100%
-    );
     z-index: -10;
     border-radius: ${theme.borderRadius.default};
     transition: opacity ${theme.transitions.default.duration};
@@ -78,7 +70,7 @@ const Image = styled.div`
   overflow: hidden;
   right: 0;
   left: 0;
-  bottom: 0;
+  bottom: 6rem;
   z-index: 1;
   object-fit: cover;
   border-radius: ${props => props.theme.borderRadius.default};
@@ -94,7 +86,7 @@ const Image = styled.div`
 `;
 
 const Info = styled.div`
-  color: ${props => props.theme.colors.white.light};
+  color: ${props => props.theme.colors.black.blue};
   margin: 0 1rem 1.25rem 1.25rem;
   position: absolute;
   bottom: 0;
