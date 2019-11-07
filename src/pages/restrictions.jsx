@@ -6,7 +6,7 @@ import { Header } from 'components';
 import { Layout, Container } from 'layouts';
 
 const NoFoods = styled.div`
-  background-color: red;
+  background-color: #FF6666;
   color: white;
 `;
 

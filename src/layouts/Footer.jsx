@@ -26,7 +26,23 @@ const Footer = () => (
     <Text>
       <span>
         Sharkey-Chefs -{' '}
-        <a href="https://github.com/usaspiff">Nick Tchemitcheff</a>-{' '} 2019 ©
+        <a href="https://github.com/usaspiff">Nick Tchemitcheff</a>- 2019 ©
+      </span>
+      <br />
+      <span>Site under construction</span>
+      <br />
+      <br />
+      <span>
+        Based on the wonderful Gatsby template by{' '}
+        <p>
+          <a href="https://github.com/justinformentin/gatsby-v2-tutorial-starter">
+            Just Formentin
+          </a>
+        </p>
+        <span>This is a collection of recipes gather around the web and from books.</span>
+        <br />
+        <span>
+        I did not come up with any recipe listed. Credits given on the recipe page when possible.</span>
       </span>
     </Text>
   </Wrapper>
