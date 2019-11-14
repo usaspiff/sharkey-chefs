@@ -21,8 +21,8 @@ const PostWrapper = styled.div`
 `;
 
 const AroundPosts = styled.div`
-  /* display: flex;
-  justify-content: left; */
+  display: flex;
+  justify-content: center;
   margin: 4rem 6rem 1rem 6rem;
   @media (max-width: 1000px) {
     margin: 4rem 2rem 1rem 2rem;
@@ -30,6 +30,19 @@ const AroundPosts = styled.div`
   @media (max-width: 700px) {
     margin: 4rem 1rem 1rem 1rem;
   }
+`;
+
+const Button = styled.div`
+  color: ${props => props.theme.colors.white.light};
+  background-color: ${props => props.theme.colors.black.blue};
+  text-align: center;
+  padding: 1rem;
+  width: 300px;
+  margin-bottom: 5rem;
+  &:hover {
+    box-shadow: ${props => props.theme.shadow.feature.small.hover};
+    transform: scale(1.02);
+  };
 `;
 
 const Index = ({ data }) => {
@@ -41,13 +54,17 @@ const Index = ({ data }) => {
         A collection of delicious recipes that Nicole, Maika and Nick can eat.
       </Header>
       <AroundPosts>
-        All recipes have been vetted or edited to prevent food allergies. You
-        can check out the <Link to="/restrictions">Restrictions</Link> page
-        for more details about which foods we try to avoid if you are eager to
-        cook a dish outside the list.
+        <p>
+          All recipes have been vetted or edited to prevent food allergies.
+        </p>
+        <p>
+          Check out the <Link to="/restrictions">Restrictions</Link> page for
+          the list of foods we avoid if you want to cook a dish not on the
+          list.
+        </p>
         <br />
         <br />
-        Some of our favorites recipes:
+        <p>Some of our favorites recipes:</p>
       </AroundPosts>
       <PostWrapper>
         {edges.map(({ node }) => (
@@ -61,7 +78,9 @@ const Index = ({ data }) => {
         ))}
       </PostWrapper>
       <AroundPosts>
-        <Link to="/blog">See all the recipes</Link>
+        <Link to="/blog">
+          <Button>See all the recipes</Button>
+        </Link>
       </AroundPosts>
     </Layout>
   );

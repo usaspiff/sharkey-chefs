@@ -6,7 +6,7 @@ import Img from 'gatsby-image';
 import { Container } from 'layouts';
 
 const Wrapper = styled.article`
-  margin: 0 3rem;
+  margin: 0 1rem;
 `;
 
 const Image = styled.div`
