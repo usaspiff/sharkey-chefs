@@ -24,6 +24,7 @@ const AroundPosts = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
   margin: 4rem 6rem 1rem 6rem;
   @media (max-width: 1000px) {
     margin: 4rem 2rem 1rem 2rem;

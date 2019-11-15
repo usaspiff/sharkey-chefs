@@ -15,9 +15,7 @@ const Wrapper = styled.footer`
 `;
 
 const Text = styled.div`
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 2rem;
+  padding: 0 1rem 2rem 1rem;
   text-align: center;
   color: ${props => props.theme.colors.white.light};
 `;
