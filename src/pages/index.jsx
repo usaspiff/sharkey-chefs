@@ -22,6 +22,7 @@ const PostWrapper = styled.div`
 
 const AroundPosts = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 4rem 6rem 1rem 6rem;
   @media (max-width: 1000px) {
@@ -62,9 +63,9 @@ const Index = ({ data }) => {
           the list of foods we avoid if you want to cook a dish not on the
           list.
         </p>
-        <br />
-        <br />
-        <p>Some of our favorites recipes:</p>
+        <p>
+          <u>Some of our favorites recipes:</u>
+        </p>
       </AroundPosts>
       <PostWrapper>
         {edges.map(({ node }) => (
