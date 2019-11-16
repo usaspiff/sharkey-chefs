@@ -7,19 +7,17 @@ const TagsContainer = styled.div`
   margin: 1rem 0;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   justify-content: center;
   a {
-    margin: 0 1rem 1rem 0;
-    color: ${props => props.theme.colors.black.blue};
+    margin: 1rem 1rem 1rem 0;
+    color: ${props => props.theme.colors.white.light};
     padding: 0.3rem 0.6rem;
-    background: ${props => props.theme.colors.white.grey};
-    /* border-radius: 10px; */
+    background: ${props => props.theme.colors.black.blue};
     text-align: center;
     &:hover {
       color: ${props => props.theme.colors.white.light};
-      background: ${props => props.theme.colors.primary.light};
-      border: ${props => props.theme.colors.primary.light};
+      background: ${props => props.theme.colors.primary.dark};
+      border: ${props => props.theme.colors.primary.dark};
     }
   }
 `;

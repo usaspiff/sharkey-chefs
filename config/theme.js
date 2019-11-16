@@ -19,6 +19,12 @@ export const colors = {
            light: '#A9F0D1',
            dark: '#44BBA4',
          },
+         red: {
+           warning: '#FF6666',
+         },
+         green: {
+           ok: '#44bba4',
+         },
        };
 
 export const shadow = {

@@ -24,7 +24,7 @@ const AroundPosts = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
   margin: 4rem 6rem 1rem 6rem;
   @media (max-width: 1000px) {
     margin: 4rem 2rem 1rem 2rem;
@@ -59,6 +59,7 @@ const Index = ({ data }) => {
         <p>
           All recipes have been vetted or edited to prevent food allergies.
         </p>
+        <br />
         <p>
           Check out the <Link to="/restrictions">Restrictions</Link> page for
           the list of foods we avoid if you want to cook a dish not on the
